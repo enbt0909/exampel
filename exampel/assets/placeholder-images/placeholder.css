@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.pl-holder {
+  width: 100vw;
+  height: 100vh;
+  /* background: #0e8dbc; */
+  background-color: #323639;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: hsl(0, 0%, 98%);
+  font-size: 20rem;
+  rotate: -33deg;
+}
+
+.text-sh {
+  color: white;
+  text-shadow: 0 0.1rem 0 #ccc, 0 0.2rem 0 #c9c9c9, 0 0.3rem 0 #bbb,
+    0 0.4rem 0 #b9b9b9, 0 0.5rem 0 #aaa, 0 0.6rem 0.1rem rgba(0, 0, 0, 0.1),
+    0 0 0.5rem rgba(0, 0, 0, 0.1), 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3),
+    0 0.3rem 0.5rem rgba(0, 0, 0, 0.2), 0 0.5rem 1rem rgba(0, 0, 0, 0.25),
+    0 1rem 1rem rgba(0, 0, 0, 0.2), 0 2rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+p {
+  position: absolute;
+  bottom: 1rem;
+  color: #323639;
+  text-shadow: 0.1rem 0.1rem 0.1rem #565b5f, -0.1rem -0.1rem 0.1rem #565b5f;
+  font-size: 2.8rem;
+  letter-spacing: 0.15rem;
+}
